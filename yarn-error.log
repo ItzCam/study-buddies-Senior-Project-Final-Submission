@@ -1,0 +1,81 @@
+Arguments: 
+  /snap/node/5953/bin/node /snap/node/5953/bin/yarn.js global dir
+
+PATH: 
+  /home/marv/Desktop/Study-Buddies-Mobile-Application/FirebaseAuth/node_modules/.bin:/home/marv/Desktop/Study-Buddies-Mobile-Application/node_modules/.bin:/home/marv/Desktop/node_modules/.bin:/home/marv/node_modules/.bin:/home/node_modules/.bin:/node_modules/.bin:/snap/node/5953/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/marv/Library/Android/sdk/emulator:/home/marv/Library/Android/sdk/platform-tools:/home/marv/Library/Android/sdk/emulator:/home/marv/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, write
+      at writeSync (node:fs:884:3)
+      at SyncWriteStream._write (node:internal/fs/sync_write_stream:25:3)
+      at writeOrBuffer (node:internal/streams/writable:389:12)
+      at _write (node:internal/streams/writable:330:10)
+      at SyncWriteStream.Writable.write (node:internal/streams/writable:334:10)
+      at ConsoleReporter._log (/snap/node/5953/lib/cli.js:96904:17)
+      at ConsoleReporter.log (/snap/node/5953/lib/cli.js:96892:10)
+      at dir (/snap/node/5953/lib/cli.js:36299:14)
+      at Object.<anonymous> (/snap/node/5953/lib/cli.js:25983:25)
+      at Generator.next (<anonymous>)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@react-native-community/datetimepicker": "^3.5.2",
+      "@react-native-firebase/app": "^12.9.1",
+      "@react-native-picker/picker": "^2.1.0",
+      "@react-navigation/bottom-tabs": "^6.0.9",
+      "@react-navigation/native": "^6.0.6",
+      "@react-navigation/native-stack": "^6.2.5",
+      "@types/react-native-calendars": "^1.1264.3",
+      "expo": "~42.0.1",
+      "expo-status-bar": "~1.0.4",
+      "firebase": "^8.2.3",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+      "react-native-calendars": "^1.1268.0",
+      "react-native-dropdown-picker": "^5.2.3",
+      "react-native-image-gallery": "^2.1.5",
+      "react-native-keyboard-aware-scroll-view": "^0.9.5",
+      "react-native-modal-datetime-picker": "^13.0.0",
+      "react-native-number-please": "^1.0.5",
+      "react-native-paper": "^4.9.2",
+      "react-native-picker-select": "^8.0.4",
+      "react-native-safe-area-context": "3.2.0",
+      "react-native-screens": "~3.4.0",
+      "react-native-select-dropdown": "^1.2.0",
+      "react-native-vector-icons": "^8.1.0",
+      "react-native-web": "^0.17.5",
+      "react-redux": "^7.2.5",
+      "redux": "^4.1.1",
+      "redux-thunk": "^2.3.0",
+      "typescript": "^4.5.2"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.9.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
