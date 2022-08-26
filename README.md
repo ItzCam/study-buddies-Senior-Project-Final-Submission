@@ -24,3 +24,4 @@ Study Buddies is a mobile application developed in the CECS 491 Senior Project S
 3. Enjoy our application
 
 ## Demo
+https://user-images.githubusercontent.com/46500443/186829263-f1186946-1f56-4e14-8a73-0d82784c892c.MP4
